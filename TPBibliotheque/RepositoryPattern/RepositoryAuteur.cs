@@ -26,13 +26,13 @@ namespace TPBibliotheque.RepositoryPattern
 			return _context.SaveChanges() > 0; // et non pas ==1 car jointures
 		}
 
-		public Auteur? Get(int id)
+		public Auteur? Get(int id) // "?" juste pour éviter le soulignement
 		{
 			if(id < 0) throw new ArgumentOutOfRangeException();
 
 			return _context.Auteurs
 				.Include(x => x.Livres)
-				.FirstOrDefault(x => x.Id == id); // "?" juste pour éviter le soulignement
+				.FirstOrDefault(x => x.Id == id); 
 		}
 
 		public ICollection<Auteur> GetAll()

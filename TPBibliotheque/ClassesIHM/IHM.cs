@@ -190,9 +190,9 @@ namespace TPBibliotheque.ClassesIHM
 			}
 
 			// v1 : Standard
-			/* Auteur? auteur = _context.Auteurs
+			/* Auteur? auteur = _context.Auteurs // "?" juste pour éviter le soulignement
 				.Include(x => x.Livres)
-				.FirstOrDefault(x => x.Id == id); // "?" juste pour éviter le soulignement
+				.FirstOrDefault(x => x.Id == id); 
 			*/
 
 			// v2 : Repository Pattern
@@ -723,7 +723,7 @@ namespace TPBibliotheque.ClassesIHM
 
 
 
-		#region Livres
+		#region Programe : livres
 
 		// SELECT tout
 		private void LivresGetAll()

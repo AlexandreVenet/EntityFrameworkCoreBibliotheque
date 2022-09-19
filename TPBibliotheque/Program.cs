@@ -10,6 +10,7 @@ namespace TPBibliotheque
 			Console.OutputEncoding = System.Text.Encoding.UTF8;
 			Console.Title = "TP Bibliothèque numérique";
 
+			// Lancer l'IHM
 			new IHM();
 		}
 	}

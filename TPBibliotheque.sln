@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPBibliotheque", "TPBibliotheque\TPBibliotheque.csproj", "{05E80325-B7C8-4419-9281-F4DD62D6812B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPBibliotheque", "TPBibliotheque\TPBibliotheque.csproj", "{05E80325-B7C8-4419-9281-F4DD62D6812B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{5E49AAFD-175A-4021-856C-1B9F1A3DCA4B}"
+	ProjectSection(SolutionItems) = preProject
+		BDD\Plan.loo = BDD\Plan.loo
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
